@@ -1,24 +1,9 @@
-# README
+# Decoupled API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An attempt to create a decoupled architecture for frontend apps.
 
-Things you may want to cover:
+This is the API. It uses:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Plain REST JSON so there is no dependency on backend or frontend libraries.
+- Rails for all its great abstractions.
+- Any DB Rails supports: in this case, Postgres
